@@ -1,0 +1,22 @@
+.product-list-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    margin: 1rem;
+
+    .card {
+        .card-body {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            button {
+                margin: 0px 5px 0px 5px;
+            }
+        }
+    }
+
+}

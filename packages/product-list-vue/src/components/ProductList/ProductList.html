@@ -1,0 +1,28 @@
+  <div class="product-list-container">
+    <div v-for="index in 10" :key="index">
+        <div>
+            <b-card
+              no-body
+              style="max-width: 20rem;"
+              :img-src="getRandomImage()"
+              img-alt="Image"
+              img-top
+            >          
+              <b-card-body>
+                <b-card-title>{{ getRandomProduct() }}</b-card-title>
+                <b-card-sub-title class="mb-2">{{ getRandomProductName() }}</b-card-sub-title>
+                <b-card-text>
+                  {{ getRandomProductDescription() }}
+                </b-card-text>
+              </b-card-body>
+          
+ 
+              <b-card-body class="button-container">
+                <b-button variant="outline-primary">View</b-button>
+                <b-button variant="outline-primary">Buy</b-button>
+              </b-card-body>
+        
+            </b-card>
+          </div>
+    </div>
+  </div>
