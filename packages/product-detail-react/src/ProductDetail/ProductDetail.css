@@ -1,0 +1,30 @@
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #e9e9f0;
+}
+
+.product-name {
+    border-bottom: 1px solid darkred;
+    width: 30%;
+    line-height: 3rem;
+}
+
+.product-detail-info {
+    padding: 1rem;
+}
+
+.limited-stock {
+    color: darkred;
+    font-size: small;
+}
+
+.cart-btn {
+    background-color: darkgreen;
+    border: none;
+    border-radius: 0%;
+    color: white;
+    padding: 0.6rem;
+}
