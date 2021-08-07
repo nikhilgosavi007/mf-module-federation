@@ -1,6 +1,12 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "start": "lerna run start --stream",
+    "bootstrap": "lerna bootstrap",
+    "clean": "rm -rf node_modules/ && lerna clean",
+    "lerna": "lerna"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }

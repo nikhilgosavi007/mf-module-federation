@@ -6,6 +6,7 @@
     margin: 1rem;
 
     .card {
+        
         .card-body {
             overflow: hidden;
             text-overflow: ellipsis;
@@ -13,7 +14,19 @@
         .button-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            .view-btn {
+                background-color: darkturquoise;
+                border: none;
+                border-radius: 0%;
+            }
+            .buy-btn{
+                background-color: darkgreen;
+                border: none;
+                border-radius: 0%;
+            }
+            
             button {
+                color: white;
                 margin: 0px 5px 0px 5px;
             }
         }

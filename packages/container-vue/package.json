@@ -1,20 +1,17 @@
 {
-  "name": "product-list-vue",
+  "name": "container-vue",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "bootstrap": "^5.0.2",
-    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "faker": "^5.5.3",
-    "vue": "^2.6.14",
+    "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },

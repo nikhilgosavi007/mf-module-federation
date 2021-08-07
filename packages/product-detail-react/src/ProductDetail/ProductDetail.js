@@ -2,7 +2,6 @@
 import React from 'react';
 import './ProductDetail.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
 
 function ProductDetail() {
   return (
