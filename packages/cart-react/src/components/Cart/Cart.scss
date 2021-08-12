@@ -1,0 +1,40 @@
+.cart-container {
+
+    .cart-items {
+
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin: 1rem;
+        padding: 1rem;
+        background-color: #e9e9f0;
+
+        .product-info {
+            padding: 1rem;
+    
+            .limited-stock {
+                color: darkred;
+                font-size: small;
+            }
+    
+            .delete-btn {
+                display: block !important;
+                width: 15%;
+                background-color: darkred;
+                border: none;
+            }
+    
+            p {
+                line-height: 1rem;
+            }
+    
+        }
+    }
+
+    .checkout-btn {
+        background-color: darkgreen;
+        border: none;
+        margin-right: 1rem;
+        float: right;
+    }
+
+}
