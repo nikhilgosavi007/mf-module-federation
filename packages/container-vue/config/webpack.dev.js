@@ -22,7 +22,8 @@ const devConfig = {
       name: 'container',
       remotes: {
         productlist: 'productlist@http://localhost:8081/remoteEntry.js',
-        productdetail: 'productdetail@http://localhost:8082/remoteEntry.js'
+        productdetail: 'productdetail@http://localhost:8082/remoteEntry.js',
+        cart: 'cart@http://localhost:8083/remoteEntry.js'
       },
       shared: packageJson.dependencies,
     }),
