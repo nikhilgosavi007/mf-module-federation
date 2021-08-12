@@ -2,6 +2,9 @@
     <div v-for="index in 8" :key="index">
         <div>
             <Card style="width: 25rem; margin-bottom: 2em;max-width: 20rem;">
+              <template #header>
+                <img alt="user header" :src="getRandomImage()">
+              </template>
               <template #title>
                 {{ getRandomProduct() }}
               </template>

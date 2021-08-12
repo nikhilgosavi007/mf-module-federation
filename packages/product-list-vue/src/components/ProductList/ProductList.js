@@ -21,7 +21,8 @@ export default {
       return faker.commerce.productName();
     },
     getRandomProductDescription() {
-      return faker.commerce.productDescription();
+      const description = faker.commerce.productDescription();
+      return description.toString().substring(0, Math.min(description.length, 50));
     },
     getRandomImage() {
         return faker.image.cats();

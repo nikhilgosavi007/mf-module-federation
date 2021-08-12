@@ -1,29 +1,4 @@
-.product-list-container {
+#product-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);;
-    column-gap: 1rem;
-    row-gap: 1rem;
-    margin: 1rem;
-
-    .card-body {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    .view-btn {
-        background-color: darkturquoise;
-        border: none;
-        border-radius: 0%;
-    }
-    .buy-btn{
-        background-color: darkgreen;
-        border: none;
-        border-radius: 0%;
-    }
-    
-    button {
-        color: white;
-        margin: 0px 5px 0px 5px;
-    }
-
-
+    justify-content: center;
 }

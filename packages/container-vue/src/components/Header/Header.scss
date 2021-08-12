@@ -1,0 +1,14 @@
+.header-container {
+    background-color: black;
+    color: white;
+    .header-content {
+        padding: 1rem;
+        height: 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        .logo {
+            height: 3rem;
+        }
+    }
+}

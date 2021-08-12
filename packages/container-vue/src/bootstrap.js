@@ -1,12 +1,8 @@
 
 import Vue, { createApp } from 'vue';
 import App from "./App.vue";
-import { mount } from 'productlist/ProductList';
 
-// import VueRouter from 'vue-router'
+import router from './router'
 
-// Vue.use(VueRouter)
-
-// const app = createApp(App);
-// app.mount('#root');
-mount('#root')
+const app = createApp(App).use(router);
+app.mount('#root');

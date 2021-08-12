@@ -1,12 +1,19 @@
 <template>
   <div>
+    <Header/>
     <router-view />
   </div>
 </template>
 
 <script>
+
+import Header from './components/Header/Header.vue';
+
 export default {
-     name: "App",
+    name: "App",
+    components: {
+      Header
+    },
 }
 </script>
 
@@ -14,6 +21,6 @@ export default {
 <style lang="scss">
 body {
   margin: 0%;
-  background-color: black !important;
+  background-color: floralwhite;
 }
 </style>
