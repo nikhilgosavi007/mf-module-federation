@@ -5,10 +5,17 @@
         padding: 1rem;
         height: 5rem;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
+        text-align: center;
         .logo {
             height: 3rem;
+        }
+        svg{
+            height: 2rem;
+            justify-self: right;
+            padding: 0 1rem 0 0;   
+            cursor: pointer;
         }
     }
 }

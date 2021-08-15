@@ -1,22 +1,19 @@
   <div class="product-list-container">
-    <div v-for="index in 8" :key="index">
+    <div v-for="item in products" >
         <div>
             <Card style="width: 25rem; margin-bottom: 2em;max-width: 20rem;">
               <template #header>
-                <img alt="user header" :src="getRandomImage()">
+                <img alt="user header" :src="item.productImage">
               </template>
               <template #title>
-                {{ getRandomProduct() }}
-              </template>
-              <template #subtitle>
-                {{ getRandomProductName() }}
+                {{ item.productName }}
               </template>
               <template #content>
-                {{ getRandomProductDescription() }}
+                {{  item.ProductDescription }}
               </template>
               <template #footer>
-                <Button class="view-btn" label="View" />
-                <Button class="buy-btn"  label="Buy" />
+                <Button class="view-btn" label="View" v-on:click="navigateToProductDetail(item.productId)" />
+                <Button class="buy-btn"  label="Buy" v-on:click="addToCart(item.productId)" />
             </template>
             </Card>
           </div>
